@@ -13,10 +13,18 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="EurekaClient" target="1.5" />
-      <module name="eurekaproject" target="1.5" />
-      <module name="Gateway" target="1.5" />
-      <module name="service-voiture" target="1.5" />
+      <module name="EurekaClient" target="17" />
+      <module name="eurekaproject" target="17" />
+      <module name="Gateway" target="17" />
+      <module name="service-voiture" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaClient" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="eurekaproject" options="-parameters" />
+      <module name="service-voiture" options="-parameters" />
+    </option>
   </component>
 </project>
